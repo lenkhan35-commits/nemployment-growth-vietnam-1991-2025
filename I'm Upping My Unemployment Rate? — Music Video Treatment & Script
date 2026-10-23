@@ -1,0 +1,43 @@
+# I'm Upping My Unemployment Rate? — Music Video Treatment & Script
+**Đề tài nghiên cứu khoa học:** Định lượng tác động của tỷ lệ thất nghiệp đến tăng trưởng kinh tế tại Việt Nam giai đoạn 1991–2025  
+**Trường:** Đại học Kinh tế - Tài chính Thành phố Hồ Chí Minh (UEF) - Khoa Kinh tế  
+**Giảng viên hướng dẫn:** TS. Nguyễn Duy Quang  
+**Nhóm tác giả:** Nghiêm Minh Hiếu, Lê Nguyễn Tuấn Khan, Chu Nữ Huyền Trân, Bùi Hồng Điệp, Thân Thị Bích Linh
+
+---
+
+## 1. Tổng quan & Concept (Overview & Concept)
+Một video âm nhạc (MV) generative, render bằng code (TypeScript + Three.js) với typography karaoke đồng bộ từng từ theo nhịp điệu EDM/Lo-fi Synthwave vĩ mô. Mỗi khung hình là một hàm tất định (deterministic function) của thời gian bài hát, trực quan hóa dữ liệu kinh tế vĩ mô 35 năm (1991–2025) của Việt Nam: từ công cuộc Đổi Mới, hội nhập WTO, cú sốc COVID-19 đến kỷ nguyên chuyển đổi số và việc làm bấp bênh.
+
+## 2. Style Bible & Typography
+- **Font chữ chính:** Archivo (tiêu đề mạnh mẽ), IBM Plex Mono (số liệu thống kê, dữ liệu ARDL, biểu đồ), Cormorant Garamond (chú thích học thuật).
+- **Hiệu ứng đồ họa:** GPU line batches, bloom, halation, grain mô phỏng màn hình terminal tài chính kết hợp nghệ thuật động học (kinetic typography).
+- **Bảng màu (Color Palette):**
+  - Nền: Đen sâu vĩ mô (`#0a0a0c`).
+  - Màu tăng trưởng GDP: Xanh ngọc phát sáng (`#00ffcc`).
+  - Màu thất nghiệp / rủi ro: Đỏ neon / cam cảnh báo (`#ff3366`, `#ffaa00`).
+
+---
+
+## 3. Phân cảnh chi tiết (Plate-by-Plate Treatment)
+
+### Plate 1: Open — Khởi động chuỗi thời gian 1991
+- **Visual:** Màn hình đen với dòng code nạp dữ liệu từ Tổng cục Thống kê (GSO) và World Bank (1991). Các dòng chữ hiện lên giật cục theo nhịp trống kick đầu tiên.
+- **Lyrics:** "Chào 1991, cột mốc bước chân đầu..."
+- **Data overlay:** `GDP Growth = 5.8%`, `Unemployment = X%`.
+
+### Plate 2: Loss — Khủng hoảng & Cú sốc vĩ mô
+- **Visual:** Sóng hình sin đứt gãy, hiệu ứng grain nhiễu hạt nặng. Biểu đồ dao động thất nghiệp tăng vọt trong các năm khủng hoảng tài chính châu Á (1997-1998) và suy thoái toàn cầu (2008-2009).
+- **Lyrics:** "Khi chu kỳ đảo chiều, dòng người rời ruộng lúa ra thành phố..."
+
+### Plate 3: Room — Mô hình ARDL & Hồi quy 35 năm
+- **Visual:** Không gian 3D ray-marched mô phỏng các phương trình hồi quy kinh tế lượng, hệ số trễ, kiểm định đồng liên kết Johansen và mô hình ARDL (Nguyễn Thị Thu Hà, 2021; Phan Duy Hiệp, 2026).
+- **Lyrics:** "Định luật Okun chạy qua từng dòng lệnh, hệ số âm ngắn hạn, dài hạn chuyển màu nhanh..."
+
+### Plate 4: COVID — Đại dịch & Biến động 2020-2025
+- **Visual:** Dữ liệu năm 2020–2025 nhấp nháy đỏ rực. Mô hình MCDM Xám và các cú sốc chuỗi cung ứng toàn cầu (Phi-Hung Nguyen et al., 2020).
+- **Lyrics:** "2020 đứng hình, khẩu trang che kín bóng hình, việc làm dễ tổn thương tăng mạnh..."
+
+### Plate 5: Outro & Rewind — Tổng kết nghiên cứu UEF
+- **Visual:** Tua ngược toàn bộ 35 năm biểu đồ GDP và tỷ lệ thất nghiệp từ 2025 về 1991, hiển thị danh sách tên 5 sinh viên thực hiện và Giảng viên hướng dẫn TS. Nguyễn Duy Quang.
+- **Lyrics:** "Kiểm soát thất nghiệp, tăng trưởng bền vững cho ngày mai..."
